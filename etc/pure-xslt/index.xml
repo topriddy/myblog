@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<posts>
+	<post>
+		<title>Post 1</title>
+		<author>Kate</author>
+		<slug>post-1</slug>
+		<date>2003-01-02</date>
+	</post>
+	<post>
+		<title>Post 2</title>
+		<author>Andy</author>
+		<slug>post-2</slug>
+		<date>2003-01-04</date>
+	</post>
+</posts>
