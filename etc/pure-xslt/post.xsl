@@ -3,8 +3,15 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 	<xsl:include href="html.xsl" />
+		
+	<!-- Output settings for generating HTML 4 -->
+	<!--
 	<xsl:output method="html" doctype-system="http://www.w3.org/TR/html4/strict.dtd"
-		doctype-public="-//W3C//DTD HTML 4.01//EN" indent="yes" />
+		doctype-public="-//W3C//DTD HTML 4.01//EN" indent="yes" />-->
+		
+	<!-- Output settings for generating HTML 5 -->
+	<xsl:output method="html" encoding="UTF-8" omit-xml-declaration="yes" indent="yes"
+		media-type="text/html" doctype-system="about:legacy-compat" />
 
 	<xsl:template match="/">
 		<xsl:call-template name="html">
